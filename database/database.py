@@ -1,17 +1,13 @@
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
+#(©)CodeXBotz
 
 
 
 
 import pymongo, os
-from config import DB_URL, DB_NAME
+from config import DB_URI, DB_NAME
 
 
-dbclient = pymongo.MongoClient(DB_URL)
+dbclient = pymongo.MongoClient(DB_URI)
 database = dbclient[DB_NAME]
 
 
@@ -38,17 +34,3 @@ async def full_userbase():
 async def del_user(user_id: int):
     user_data.delete_one({'_id': user_id})
     return
-
-
-
-
-
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
