@@ -93,7 +93,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("⛩️ Sagato Movies ⛩️", url = "https://t.me/sagato_anime_movies")
                 ],
                 [
-                    InlineKeyboardButton("⛩️ Chat Group ⛩️", url = "https://t.me/apna_akatsuki")
+                    InlineKeyboardButton("⛩️ Chat Group - Akatsuki ⛩️", url = "https://t.me/apna_akatsuki")
                 ],
                 [
                     InlineKeyboardButton("🤖 About Me", callback_data = "about"),
