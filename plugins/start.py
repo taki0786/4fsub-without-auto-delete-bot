@@ -87,13 +87,9 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [          
-                [
-                    InlineKeyboardButton("⛩️ Sagato Anime ⛩️", url = "https://t.me/sagato_anime")
+                [           InlineKeyboardButton("⛩️ Sagato Anime ⛩️", url = "https://t.me/sagato_anime"),             InlineKeyboardButton("⛩️ Sagato Movies ⛩️", url = "https://t.me/sagato_anime_movies")
                 ],[
-                    InlineKeyboardButton("⛩️ Sagato Movies ⛩️", url = "https://t.me/sagato_anime_movies")
-                ],
-                [
-                    InlineKeyboardButton("⛩️ Chat Group - Akatsuki ⛩️", url = "https://t.me/apna_akatsuki")
+                    InlineKeyboardButton("⛩️Chat Group - ☁️ ᴀᴋᴀᴛsᴜᴋɪ ☁️⛩️", url = "https://t.me/apna_akatsuki")
                 ],
                 [
                     InlineKeyboardButton("🤖 About Me", callback_data = "about"),
